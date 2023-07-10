@@ -18,7 +18,13 @@ body{
     border: none;
     padding: 20px 43px;
 }
-
+.primary-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
 
 /* Main banner CSS Styles */
 .main-banner{
@@ -46,4 +52,24 @@ body{
     line-height: 30px;
     padding-right: 40px;
     margin: 25px 0px;
+}
+/* Features Styles */
+.features-flower{
+    width: 1400px;
+}
+.featured-item{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Whu Us Styles */
+.why-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* CTA Styles */
+.cta-container{
+    display: flex;
+    justify-content: space-between;
 }
