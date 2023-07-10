@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* Common CSS Styles */
+.primary-btn{
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    padding: 20px 43px;
+}
+
+
+/* Main banner CSS Styles */
+.main-banner{
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner-container{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.shop-info{
+    padding-left: 60px;
+}
+.shop-info .banner-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.shop-info .banner-descrip{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-right: 40px;
+    margin: 25px 0px;
+}
